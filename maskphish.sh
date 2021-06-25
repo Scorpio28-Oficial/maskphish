@@ -9,15 +9,15 @@ url_checker() {
     fi
 }
 
-echo -e "\n\e[1;32;30m######┌──────────────────────────┐##### \e[0m"
-echo -e "\e[1;32;30m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
-echo -e "\e[1;32;30m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
-echo -e "\e[1;32;30m######│▌ ▌▞▀▌▝▀▖▛▚ ▌  ▌ ▌▐ ▝▀▖▌ ▌│##### \e[0m"
-echo -e "\e[1;32;30m######│▘ ▘▝▀▘▀▀ ▘ ▘▘  ▘ ▘▀▘▀▀ ▘ ▘│##### \e[0m"
-echo -e "\e[1;32;30m######└──────────────────────────┘##### \e[0m \n"
+echo -e "\n\e[1;30m######\e[1;32m┌──────────────────────────┐\e[1;30m##### \e[0m"
+echo -e "\e[1;30m######\e[1;32m│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │\e[1;30m##### \e[0m"
+echo -e "\e[1;30m######\e[1;32m│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│\e[1;30m##### \e[0m"
+echo -e "\e[1;39m######│▌ ▌▞▀▌▝▀▖▛▚ ▌  ▌ ▌▐ ▝▀▖▌ ▌│\e[1;30m##### \e[0m"
+echo -e "\e[1;30m######\e[1;32m│▘ ▘▝▀▘▀▀ ▘ ▘▘  ▘ ▘▀▘▀▀ ▘ ▘│\e[1;30m##### \e[0m"
+echo -e "\e[1;30m######\e[1;32m└──────────────────────────┘\e[1;30m##### \e[0m \n"
 echo -e " "
 echo -e "\e[30;48;5;82m    Traducido y Personalizado Por \e[40;38;5;82m Scorpio28 \e[0m \n\n"
-echo -e "\e[1;32;30m ### Phishing URL ###\e[0m \n"
+echo -e "\e[1;30m ###\e[1;32m Phishing URL\e[1;30m ###\e[0m \n"
 echo -e -n "
 \e[1;30m┌═══════════════════════════════┐
 █\e[1;32m Pegue la URL de phishing aquí\e[1;30m █
@@ -36,7 +36,7 @@ echo -e "
 echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
-echo -e "\n\e[1;32;30m ### Masking Dominio ###\e[0m"
+echo -e "\n\e[1;30m ###\e[1;32m Masking Dominio\e[1;30m ###\e[0m"
 echo -e -n "
 \e[1;30m┌══════════════════════════════════════════════┐
 █\e[1;32m Dominio para enmascarar la URL de phishing\e[1;30m   █
