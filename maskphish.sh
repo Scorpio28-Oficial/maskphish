@@ -54,10 +54,12 @@ echo -e '\n
 █\e[1;30m (\e[1;37mcomo el dinero gratis, los mejores trucos de publicación\e[1;30m) █
 └════════════════════════════════════════════════════════════┘'
 echo -e "
-\e[1;31m┌═══════════════════════════════════════┐
-█\e[1;32m No use el espacio, solo use \e[1;30m'\e[1;37m-\e[1;30m'\e[1;32m entre\e[1;31m █
-█\e[1;32m las palabras de ingeniería social\e[1;31m     █
-└═══════════════════════════════════════┘"
+\e[1;30m┌═══════════════════════════════════════┐
+█\e[1;32m No use el espacio, solo use \e[1;30m'\e[1;37m-\e[1;30m'\e[1;32m entre\e[1;30m █
+█\e[1;32m las palabras de ingeniería social\e[1;30m     █
+└═══════════════════════════════════════┘
+┃
+└═>>>\e[1;37m "
 echo -en "\e[32m=>\e[0m "
 read words
 echo -e "\n
@@ -72,4 +74,4 @@ echo -e "
 █\e[1;32m Aquí está la URL de MaskPhish\e[1;30m █
 └═══════════════════════════════════┘
 ┃
-└═>>> \e[1;37mm ${final} \e[0m\n"
+└═>>> \e[1;37m ${final} \e[0m\n"
