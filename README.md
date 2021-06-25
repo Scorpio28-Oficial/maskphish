@@ -24,6 +24,7 @@ SÓLO CON FINES EDUCATIVOS. El uso de MaskPhish para atacar objetivos sin consen
 * git clone https://github.com/jaykali/maskphish
 
 * cd maskphish
+
 * bash maskphish.sh
 ```
 (Probado en Kali Linux, Termux &Ubuntu)
