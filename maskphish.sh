@@ -53,7 +53,7 @@ echo -e '\n
 █\e[1;32m Escriba palabras de ingeniería social:\e[1;30m                     █
 █\e[1;30m (\e[1;37mcomo el dinero gratis, los mejores trucos de publicación\e[1;30m) █
 └════════════════════════════════════════════════════════════┘'
-echo -e "
+echo -e -n "
 \e[1;30m┌═══════════════════════════════════════┐
 █\e[1;32m No use el espacio, solo use \e[1;30m'\e[1;37m-\e[1;30m'\e[1;32m entre\e[1;30m █
 █\e[1;32m las palabras de ingeniería social\e[1;30m     █
@@ -69,9 +69,9 @@ echo -e "
 └═══════════════════════════════════┘\n"
 final=$mask-$words@$shorter
 echo -e "
-echo -e "
-\e[1;30m┌═══════════════════════════════════┐
+echo -e -n "
+\e[1;30m┌═══════════════════════════════┐
 █\e[1;32m Aquí está la URL de MaskPhish\e[1;30m █
-└═══════════════════════════════════┘
+└═══════════════════════════════┘
 ┃
 └═>>> \e[1;37m ${final} \e[0m\n"
