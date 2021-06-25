@@ -3,7 +3,10 @@
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
-            echo -e "\e[31m[!] Invalid URL. Please use http or https.\e[0m"
+            echo -e "\e[31m┌════════════════════════════════════════════════════════┐
+█ \e[1;30m                 [\e[1;32m¡\e[1;30m] \e[1;37mDATOS ERRONEOS\e[1;30m[\e[1;32m¡\e[1;30m]                  \e[1;31m█
+█ \e[1;37m PUEDE COMENZAR NUEVAMENTE EJECUTANDO\e[1;32m bash maskphish.sh \e[1;31m█
+└═════════════════════════════════════════════════════════┘\e[0m"
             exit 1
         fi
     fi
