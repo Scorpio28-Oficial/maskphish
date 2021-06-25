@@ -27,7 +27,7 @@ SÓLO CON FINES EDUCATIVOS. El uso de MaskPhish para atacar objetivos sin consen
 
 * bash maskphish.sh
 ```
-(Probado en Kali Linux, Termux &Ubuntu)
+(Probado en Kali Linux, Termux & Ubuntu)
 ## Artículo detallado:
 https://www.kalilinux.in/2020/07/how-to-hide-phishing-link.html
 
