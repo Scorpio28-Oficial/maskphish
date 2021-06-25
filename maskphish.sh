@@ -16,7 +16,7 @@ echo -e "\e[1;30;42m######│▌ ▌▞▀▌▝▀▖▛▚ ▌  ▌ ▌▐ ▝
 echo -e "\e[1;30;42m######│▘ ▘▝▀▘▀▀ ▘ ▘▘  ▘ ▘▀▘▀▀ ▘ ▘│##### \e[0m"
 echo -e "\e[1;30;42m######└──────────────────────────┘##### \e[0m \n"
 echo -e "\e[40;38;5;82m Por Favor Visite \e[30;48;5;82m https://t.me/Darkmux_Community \e[0m"
-echo -e "\e[30;48;5;82m    Comunidad \e[40;38;5;82m   Traducido Por Scorpio28 \e[0m \n\n"
+echo -e "\e[30;48;5;82m    Comunidad \e[40;38;5;82m   Personalizado Por Scorpio28 \e[0m \n\n"
 echo -e "\e[1;30;42m ### Phishing URL ###\e[0m \n"
 echo -e -n "
 \e[1;30m┌═══════════════════════════════┐
