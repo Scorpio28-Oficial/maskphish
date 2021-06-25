@@ -16,7 +16,7 @@ echo -e "\e[1;30m###### │ \e[1;32m▌ ▌▞▀▌▝▀▖▛▚ ▌  ▌ ▌
 echo -e "\e[1;30m###### │ \e[1;32m▘ ▘▝▀▘▀▀ ▘ ▘▘  ▘ ▘▀▘▀▀ ▘ ▘\e[1;30m │ ##### \e[0m"
 echo -e "\e[1;30m###### \e[1;30m└────────────────────────────┘\e[1;30m ##### \e[0m \n"
 echo -e " "
-echo -e "\e[1;32m    Traducido y Personalizado Por \e[1;32m Scorpio28 \e[0m \n\n"
+echo -e "\e[1;32mTraducido y Personalizado Por \e[1;32m Scorpio28 \e[0m \n\n"
 echo -e "\e[1;30m ###\e[1;32m Phishing URL\e[1;30m ###\e[0m \n"
 echo -e -n "
 \e[1;30m┌═══════════════════════════════┐
