@@ -60,7 +60,6 @@ echo -e -n "
 ┃
 └═>>>\e[1;37m "
 read words
-echo -e "\n
 echo -e "\n\e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m Generando el enlace MaskPhish ...\e[1;30m █
 └═══════════════════════════════════┘\n"
