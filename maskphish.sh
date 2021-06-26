@@ -1,12 +1,13 @@
-# Bash Script para ocultar URL de phishing creado por KP
+# Bash Script para ocultar URL de phishing
 
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
             echo -e "\e[1;31m
-┌═════════════════════════════════════════┐
-█ \e[1;32m¡¡¡\e[1;37m DATOS ERRONEOS VUELVA A EMPEZAR \e[1;32m¡¡¡\e[1;31m █
-└═════════════════════════════════════════┘\e[0m"
+┌═══════════════════════════════════════════════┐
+█  \e[1;32m¡¡¡\e[1;37m DATOS ERRONEOS VUELVA A EMPEZAR \e[1;32m¡¡¡\e[1;31m      █
+█  \e[1;37mSI DESEA SALIR PRECIONE LAS TECLAS\e[1;32m Ctrl + c \e[1;31m █
+└═══════════════════════════════════════════════┘\e[0m"
             bash maskphish.sh 1
         fi
     fi
@@ -71,4 +72,4 @@ echo -e "\e[1;30m┌════════════════════
 █\e[1;32m AQUI ESTA LA URL DE MASKPHISH\e[1;30m █
 └═══════════════════════════════┘
 ┃
-└═>>>\e[37m ${final} \e[0m\n "
+└═>>>\e[1;32m ${final} \e[0m\n "
