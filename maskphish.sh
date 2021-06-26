@@ -57,7 +57,7 @@ echo -e '\n
 └════════════════════════════════════════════════════════════┘'
 echo -e -n "
 \e[1;30m┌═══════════════════════════════════════┐
-█\e[1;32m NO USE EL ESPACIO, SOLO USE \e[1;30m'\e[1;37m-\e[1;30m'\e[1;32m entre\e[1;30m █
+█\e[1;32m NO USE EL ESPACIO, SOLO USE \e[1;30m'\e[1;32m-\e[1;30m'\e[1;32m ENTRE\e[1;30m █
 █\e[1;32m LAS PALABRAS DE INGENIERIA SOCIAL\e[1;30m     █
 └═══════════════════════════════════════┘
 ┃
