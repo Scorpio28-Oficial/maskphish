@@ -3,8 +3,7 @@
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
-            sleep 2
-            Scorpio28
+            sleep 0.5
             else
             echo -e "\e[1;31m
 ┌═════════════════════════════════════════════════════════┐
