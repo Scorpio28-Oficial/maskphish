@@ -8,7 +8,7 @@ url_checker() {
 █                \e[1;31m¡¡¡\e[1;37m DATOS ERRONEOS \e[1;31m¡¡¡                   \e[1;31m█
 █ \e[1;37m PUEDE COMENZAR NUEVAMENTE EJECUTANDO\e[1;32m bash maskphish.sh \e[1;31m█
 └═════════════════════════════════════════════════════════┘\e[0m"
-            clear 1
+            bash maskphish.sh 1
         fi
     fi
 }
