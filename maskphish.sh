@@ -39,7 +39,7 @@ echo -e "
 echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
-echo -e "\n\e[1;30m###############\e[1;32m MASKING DOMINIO\e[1;30m ###############\e[0m"
+echo -e "\n\e[1;30m#############\e[1;32m MASKING DOMINIO\e[1;30m #############\e[0m"
 echo -e -n "
 \e[1;30m┌══════════════════════════════════════════════┐
 █\e[1;32m DOMINIO PARA ENMASCARAR LA URL DE PHYSHING\e[1;30m   █
