@@ -23,7 +23,7 @@ echo -e "\n\e[1;30m
 
 \e[1;30m>>>>>>>>>>>\e[1;32m Traducida, Editada y Personalizada
 \e[1;32mPor Scorpio28\e[1;30m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\e[0m \n"
-echo -e "\e[1;30m>>>>>>>>>>>>>>>>\e[1;32m PHISHING URL\e[1;30m <<<<<<<<<<<<<<<<\e[0m \n"
+echo -e "\e[1;30m##############\e[1;32m PHISHING URL\e[1;30m ###############\e[0m \n"
 echo -e -n "
 \e[1;30m┌═══════════════════════════════┐
 █\e[1;32m PEGUE LA URL DE PHYSHING AQUI\e[1;30m █
@@ -76,4 +76,3 @@ echo -e "\e[1;30m┌════════════════════
 └═══════════════════════════════┘
 ┃
 └═>>>\e[1;32m ${final} \e[0m\n "
-esac
