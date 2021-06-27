@@ -5,8 +5,8 @@ url_checker() {
         if [ ! "${1//:*}" = https ]; then
             echo -e "\e[1;31m
 ┌═══════════════════════════════════════════════┐
-█  \e[1;32m¡¡¡\e[1;37m DATOS ERRONEOS VUELVA A EMPEZAR \e[1;32m¡¡¡\e[1;31m      █
-█  \e[1;37mSI DESEA SALIR PRECIONE LAS TECLAS\e[1;32m Ctrl + c \e[1;31m █
+█  \e[31m¡¡¡\e[1;37m DATOS ERRONEOS VUELVA A EMPEZAR \e[31m¡¡¡\e[1;31m      █
+█  \e[1;37mSI DESEA SALIR PRECIONE LAS TECLAS\e[1;32m Ctrl \e[1;37m+ \e[1;32mc \e[1;31m █
 └═══════════════════════════════════════════════┘\e[0m"
             bash maskphish.sh 1
         fi
