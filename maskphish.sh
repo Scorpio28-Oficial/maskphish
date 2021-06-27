@@ -6,7 +6,7 @@ url_checker() {
             echo -e "\e[1;31m
 ┌═══════════════════════════════════════════════┐
 █  \e[31m¡¡¡\e[1;37m DATOS ERRONEOS VUELVA A EMPEZAR \e[31m¡¡¡\e[1;31m      █
-█  \e[1;37mSI DESEA SALIR PRECIONE LAS TECLAS\e[1;32m Ctrl \e[1;37m+ \e[1;32mc \e[1;31m █
+█  \e[1;37mSI DESEA SALIR PRESIONE LAS TECLAS\e[1;32m Ctrl \e[1;37m+ \e[1;32mc \e[1;31m █
 └═══════════════════════════════════════════════┘\e[0m"
             bash maskphish.sh 1
             exit 1
@@ -15,6 +15,7 @@ url_checker() {
 }
 
 clear
+sleep 0.5
 echo -e "\n\e[1;30m┌─────────────────────────────┐ \e[0m"
 echo -e "\e[1;30m│                             \e[1;30m│\e[0m"
 echo -e "\e[1;30m│\e[1;32m  ▙▗▌      ▌  \e[1;30m▛▀▖▌  ▗    ▌   │ \e[0m"
@@ -26,7 +27,8 @@ echo -e "\e[1;30m└────────────────────
 echo -e -n "
 \e[1;30m┌═══════════════════════════════┐
 █\e[1;32m PEGUE LA URL DE PHYSHING AQUI\e[1;30m █
-█\e[1;30m (\e[1;37mcom http o https\e[1;30m)            █
+█\e[1;30m (\e[1;37mcom http o https\e[1;30m) \e[1;32m O BIEN\e[1;30m    █
+█ \e[1;31mPARA SALIR PRESIONE\e[1;32m Ctrl \e[1;31m+ \e[1;32mc\e[1;30m  █
 └═══════════════════════════════┘
 ┃
 └═>>>\e[1;37m "
