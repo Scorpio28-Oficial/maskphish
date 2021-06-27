@@ -36,6 +36,3 @@ SÓLO CON FINES EDUCATIVOS. El uso de MaskPhish para atacar objetivos sin consen
 </p>
 
 ### Scorpio28
-<p align="center">
-	<img src="https://i.imgur.com/FpEqZCq.png" width="600px">
-</p>
