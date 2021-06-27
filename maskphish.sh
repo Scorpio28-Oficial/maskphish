@@ -20,9 +20,6 @@ echo -e "\e[1;30m│\e[1;32m▌▘▌▝▀▖▞▀▘▌▗▘\e[1;30m▙▄�
 echo -e "\e[1;30m│\e[1;32m▌ ▌▞▀▌▝▀▖▛▚ \e[1;30m▌  ▌ ▌▐ ▝▀▖▌ ▌│ \e[0m"
 echo -e "\e[1;30m│\e[1;32m▘ ▘▝▀▘▀▀ ▘ ▘\e[1;30m▘  ▘ ▘▀▘▀▀ ▘ ▘│ \e[0m"
 echo -e "\e[1;30m└──────────────────────────┘ \e[0m \n"
-echo -e "\n\e[1;30m┌════════════════┐
-█\e[1;32m  PHISHING URL  \e[1;30m█
-└════════════════┘\e[0m \n"
 echo -e -n "
 \e[1;30m┌═══════════════════════════════┐
 █\e[1;32m PEGUE LA URL DE PHYSHING AQUI\e[1;30m █
@@ -41,9 +38,6 @@ echo -e "
 echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
-echo -e "\n\e[1;30m┌═══════════════════┐
-█\e[1;32m  MASKING DOMINIO  \e[1;30m█
-└═══════════════════┘\e[0m"
 echo -e -n "
 \e[1;30m┌══════════════════════════════════════════════┐
 █\e[1;32m DOMINIO PARA ENMASCARAR LA URL DE PHYSHING\e[1;30m   █
@@ -55,10 +49,11 @@ echo -e -n "
 read mask
 url_checker $mask
 echo -e '\n
-\e[1;30m┌════════════════════════════════════════════════════════════┐
-█\e[1;32m ESCRIBA PALABRAS DE INGENIERIA SOCIAL:\e[1;30m                     █
-█\e[1;30m (\e[1;37mCOMO EL DINERO GRATIS, LOS MEJORES TRUCOS DE PUBLICACIÓN\e[1;30m) █
-└════════════════════════════════════════════════════════════┘'
+\e[1;30m┌════════════════════════════════════════┐
+█\e[1;32m ESCRIBA PALABRAS DE INGENIERIA SOCIAL:\e[1;30m █
+█\e[1;30m (\e[1;37mCOMO EL DINERO GRATIS, LOS MEJORES\e[1;30m    █
+█\e[1;37m TRUCOS DE PUBLICACIÓN\e[1;30m)                 █
+└════════════════════════════════════════┘'
 echo -e -n "
 \e[1;30m┌═══════════════════════════════════════┐
 █\e[1;32m NO USE EL ESPACIO, SOLO USE \e[1;30m'\e[1;37m-\e[1;30m'\e[1;32m entre\e[1;30m █
