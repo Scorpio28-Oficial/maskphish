@@ -18,9 +18,11 @@ SÓLO CON FINES EDUCATIVOS. El uso de MaskPhish para atacar objetivos sin consen
 ## instalación 
 
 ```
-* apt update && apt upgrade -y
+* pkg update && apt upgrade -y
 
 * pkg install git -y
+
+* pkg install pv -y
 
 * git clone https://github.com/Scorpio28-Oficial/maskphish
 
