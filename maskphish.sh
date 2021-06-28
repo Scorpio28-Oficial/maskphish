@@ -40,7 +40,6 @@ echo -e "
 █\e[1;32m PROCESAMIENTO Y MODIFICACIÓN\e[1;30m █
 █\e[1;32m DE URL DE PHYSHING\e[1;30m           █
 └══════════════════════════════┘"
-echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
 echo -e -n "
