@@ -68,7 +68,7 @@ echo -e -n "
 read words
 echo -e "\n\e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m GENERANDO EL ENLACE MASKPHISH ...\e[1;30m █
-└═══════════════════════════════════┘"
+└═══════════════════════════════════┘\n"
 final=$mask-$words@$shorter
 echo -e "\e[1;30m┌═══════════════════════════════┐
 █\e[1;32m AQUI ESTA LA URL DE MASKPHISH\e[1;30m █
