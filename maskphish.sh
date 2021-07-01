@@ -66,6 +66,7 @@ echo -e -n "
 ┃
 └═>>>\e[1;37m "
 read words
+sleep 0.5
 echo -e "\n\e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m GENERANDO EL ENLACE MASKPHISH ...\e[1;30m █
 └═══════════════════════════════════┘\n"
